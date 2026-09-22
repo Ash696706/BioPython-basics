@@ -7,3 +7,5 @@ print(a)
 print(t)
 print(g)
 print(c)
+gc_content = (g + c) / len(dna) * 100
+print("GC content:",round(gc_content),2, "%")
