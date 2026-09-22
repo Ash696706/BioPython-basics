@@ -1,3 +1,4 @@
+#GC content
 dna = "ATGCCATCCGATCGATTACGGGA"
 a = dna.count("A")
 t = dna.count("T")
@@ -9,6 +10,7 @@ print(g)
 print(c)
 gc_content = (g + c) / len(dna) * 100
 print("GC content:",round(gc_content),2, "%")
+# maximum value
 highest = max(a,t,g,c)
 print(highest)
 if highest == a:
@@ -19,6 +21,7 @@ elif highest == c:
   print("C is most frequent nucleotide")
 else:
   print("G is most frequent nucleotide")
+# minimum value   
 minimum = min(a,t,g,c)
 print(minimum)
 if minimum == a:
@@ -29,7 +32,7 @@ elif minimum == c:
   print(C)
 else:
   print(T)
-
+#count nucleotide percentage
 percentage_a = a/len(dna)*100
 print("percentage of A:",round(percentage_a,2),"%")
 percentage_t = t/len(dna)*100
