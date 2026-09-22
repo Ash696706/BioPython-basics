@@ -29,3 +29,12 @@ elif minimum == c:
   print(C)
 else:
   print(T)
+
+percentage_a = a/len(dna)*100
+print("percentage of A:",round(percentage_a,2),"%")
+percentage_t = t/len(dna)*100
+print("percentage of T:",round(percentage_t,2),"%")
+percentage_g = g/len(dna)*100
+print("percentage of G:",round(percentage_g,2),"%")
+percentage_c = c/len(dna)*100
+print("percentage of C:",round(percentage_c,2),"%")
