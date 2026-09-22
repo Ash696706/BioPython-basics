@@ -19,3 +19,13 @@ elif highest == c:
   print("C is most frequent nucleotide")
 else:
   print("G is most frequent nucleotide")
+minimum = min(a,t,g,c)
+print(minimum)
+if minimum == a:
+  print(A)
+elif minimum == g:
+  print(G)
+elif minimum == c:
+  print(C)
+else:
+  print(T)
